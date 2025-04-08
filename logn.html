@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            background-origin: 1px solid black;
+            width: 400px;
+            height: 600px;
+            background: url("animation.gif");
+            color: white;
+            border-radius: 150px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+            background-size: cover;
+            background-position:center;
+            overflow: hidden;
+        }
+        form{
+            display: block;
+            box-sizing: 30px;
+            padding: 100px;
+            width: 50%;
+            height:100%;
+            backdrop-filter: brightness(40%);
+            flex-direction: column;
+            display: flex;
+            gap:5px;
+        }
+        h1{
+            color: aliceblue;
+            text-shadow: 0px 0px ;
+        }
+        label{
+            color:white;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 2px;
+            padding-left: 10px;
+        }
+        input{
+            background: whitesmoke;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 60px;
+            padding: 0px 10px;
+            border: none;
+            margin-top:20px;
+            color: black;
+
+        }
+        button{
+            background: rgb(244, 244, 255);
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50px;
+            border:none;
+            margin-top: 20px;
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div class="login">
+            <form action="port.html">
+                <h1>log in</h1>
+                <label for="">username</label>
+                <input type="text">
+                <label for="">password</label>
+                <input type="passsword"> <br> <br>
+                <button>submit</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
